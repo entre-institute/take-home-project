@@ -18,3 +18,4 @@ use Inertia\Response;
 Route::get('students', function () {
     return Inertia::render('Students/Index');
 });
+
