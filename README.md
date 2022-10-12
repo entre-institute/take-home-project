@@ -8,6 +8,7 @@ The following commands should clone the project, restart a git repository, insta
 git clone https://github.com/entre-institute/take-home-project.git
 cd take-home-project
 git remote set-url origin {your-repo-url}
+git push origin main
 git checkout -b takehome
 composer install
 npm install
